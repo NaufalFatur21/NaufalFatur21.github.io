@@ -41,7 +41,6 @@ packages yang digunakan antara lain sebagai berikut:
 ```{r}
 #| warning: false
 #| echo: true
-library(tidyverse)
 library(readxl)
 library(WDI) 
 ```
@@ -78,15 +77,15 @@ Untuk itulah, dalam menanggapi bagaimana dampak nilai ekspor lada hitam ke Ameri
 ```{r}
 #| label: fig-mpg
 #| fig-cap: "Plot "
-setwd("D:/Fatur/Pengganti UAS METOPEL")
-fatur<-read_excel("latihan (3).xlsx")
+setwd("D:/APP PIWAR SMT 3/Fatur/UAS METOPEL")
 library(readxl)
+fatur<-read_excel("latihan (3).xlsx")
 plot(fatur$Y,fatur$X,xlab="Niai Ekspor",ylab="Nilai Tukar")
 abline(h=0)
-  
-  
 
 ```
+
+\
 
 Plot tanpa eror
 
@@ -126,7 +125,7 @@ $$ di mana $y_t$ adalah Nilai tukar rupiah terhadap USD dan $x_t$ adalah Nilai E
 |:----------------------:|:---------:|
 | **Adjusted R-Squared** |     1     |
 |    **F-Statistic**     | 4.054e+23 |
-| **Prob(F-statistik)**  | <2.2e-16  |
+| **Prob(F-statistik)**  | \<2.2e-16 |
 
 Pengaruh Nilai Tukar Rupiah Terhadap Nilai Ekspor Ke Negara Amerika Serikat 
 
